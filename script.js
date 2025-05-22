@@ -3,8 +3,8 @@ const pontosMy= document.querySelector("#my-pontos")
 const alexaPontos= document.querySelector("#pontos-alexa")
 
 
-let ganhei = 0
-let perdi =0
+let myresultNumber = 0
+let resultNumber =0
 
 const playHuman = (humanchoise) => {
   playTheGame(humanchoise, playmachin());
@@ -26,13 +26,13 @@ const playTheGame = (human, machin) => {
     (human === "scissors" && machin === "paper")
   ) { 
     result.innerHTML = "Você ganhou";
-    ganhei++
-    pontosMy.innerHTML= ganhei
+    myresulNumber++
+    pontosMy.innerHTML= myresultNumber
   }else{
    
     result.innerHTML ="Você perdeu"
-     perdi++
-    alexaPontos.innerHTML = perdi
+      resultNumber++
+    alexaPontos.innerHTML =  resultNumber
 
   }
   
