@@ -26,7 +26,7 @@ const playTheGame = (human, machin) => {
     (human === "scissors" && machin === "paper")
   ) { 
     result.innerHTML = "Você ganhou";
-    myresulNumber++
+    myresultNumber++
     pontosMy.innerHTML= myresultNumber
   }else{
    
