@@ -38,13 +38,13 @@ button:hover{
     opacity: .5;
 }
 #rock{
-    background-color: blue;
+    background-color: #808080;
 }
 #paper{
-    background-color: chartreuse;
+    background-color: #836FFF;
 }
 #scissors{
-    background-color: brown;
+    background-color: #FFB6C1;
 
     }
     p {
